@@ -29,5 +29,3 @@ Developer Notes
 - Database Access: Centralized Prisma client in `src/lib/prisma.ts`; schema in `prisma/schema.prisma`.
 - Utilities: Helpers for cart and general utilities in `src/lib/*`.
 
-Notes for Examiner
-- Screenshots included per instructions: IDE pseudocode, component + browser view, console error + patch/fix, and optional test/JMeter artifacts.
