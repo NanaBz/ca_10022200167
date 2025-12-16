@@ -11,6 +11,9 @@ Overview
 - Stack: Next.js (App Router), React, TypeScript, Tailwind CSS, Prisma ORM, and a PostgreSQL‑ready schema.
 - Structure: Admin and Shop portals with dedicated API routes under `src/app/api/*` and UI pages in `src/app/shop/*` and `src/app/admin/*`.
 
+Live Demo
+- Deployed URL: https://panaya-products.vercel.app
+
 Core Features
 - Product Catalog: List/detail views with images, categories, pricing, and stock.
 - Shopping Cart: Client‑side cart with quantity adjustments, remove, totals, and shipping calculation.
@@ -25,11 +28,6 @@ Developer Notes
 - API Endpoints: RESTful routes live under `src/app/api/*` (e.g., `/api/products`, `/api/orders`, `/api/payments`).
 - Database Access: Centralized Prisma client in `src/lib/prisma.ts`; schema in `prisma/schema.prisma`.
 - Utilities: Helpers for cart and general utilities in `src/lib/*`.
-
-How to Run (local)
-1) Install dependencies: `npm install`
-2) Start dev server: `npm run dev`
-3) Open: http://localhost:3000
 
 Notes for Examiner
 - Screenshots included per instructions: IDE pseudocode, component + browser view, console error + patch/fix, and optional test/JMeter artifacts.
